@@ -1,0 +1,11 @@
+M1C2 UI/UX - Task 3 (User Story)
+
+Sitio de referencia: Google (https://www.google.com/)
+
+User story:
+Como usuario que necesita encontrar informacion rapidamente, quiero un buscador simple con autocompletado y resultados claros, para obtener respuestas en segundos sin distracciones.
+
+Buenas practicas aplicadas:
+- Interfaz minimalista para reducir ruido visual.
+- Un solo objetivo principal (buscar) con un CTA claro.
+- Resultados ordenados y legibles para facilitar la toma de decision.
