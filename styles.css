@@ -3,153 +3,175 @@
 }
 
 body {
-  margin: 0;
-  padding: 24px;
-  background: #f7f7f2;
-  color: #1f1f1f;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 20px;
+  font-family: Arial, sans-serif;
 }
 
-.page {
-  display: grid;
-  gap: 28px;
-  justify-items: start;
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: #73dab2;
 }
 
-.gridOne {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  width: 500px;
-  padding: 16px;
-  background: #ffffff;
-  border: 1px solid #e2e2e2;
+.flex {
+  margin: 10px;
 }
 
-.gridTwo {
-  display: grid;
-  grid-template-columns: 1fr 1fr 2fr;
-  gap: 12px;
-  width: 500px;
-  padding: 16px;
-  background: #ffffff;
-  border: 1px solid #e2e2e2;
+/* Flexbox 1 */
+.flexOne {
+  display: flex;
 }
 
-.gridTwoAlpha {
-  background: red;
-  padding: 12px;
-  color: #111111;
+.flexOne .square {
+  margin: 5px;
 }
 
-.gridTwoBeta {
-  background: blue;
-  padding: 12px;
-  color: #ffffff;
+/* Flexbox 2 */
+.flexTwo {
+  display: flex;
+  flex-direction: column;
 }
 
-.gridTwoGamma {
-  background: yellow;
-  padding: 12px;
-  color: #111111;
+.flexTwo .square {
+  margin: 2px;
 }
 
-.gridThree {
-  display: grid;
-  grid-template-rows: 1fr 3fr;
-  width: 500px;
-  height: 300px;
-  background: #ffffff;
-  border: 1px solid #e2e2e2;
+/* Flexbox 3 */
+.flexThree {
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-.gridThreeText {
-  background: #e0f2fe;
-  padding: 12px;
+.flexThree .square {
+  margin: 2px;
 }
 
-.gridThreeImage {
-  background: #fde2e2;
+/* Flexbox 4 */
+.flexFour {
+  display: flex;
+  width: 350px;
+  flex-flow: row wrap;
+  background-color: #3d8b6d;
 }
 
-.gridThreeImage img {
-  width: 500px;
-  height: 225px;
-  object-fit: cover;
-  display: block;
+.flexFour .square {
+  margin: 5px;
 }
 
-.gridFour {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  width: 500px;
-  height: 200px;
-  background: green;
-  padding: 12px;
-  gap: 12px;
-  color: #111111;
+/* Flexbox 5 */
+.flexFive {
+  display: flex;
+  width: 350px;
 }
 
-.gridFourText {
-  padding: 12px;
+.flexFive .item {
+  background-color: #0b6643;
+  width: 100px;
+  height: 100px;
+  margin: 2px;
 }
 
-#gridFourNested {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  padding: 12px;
+#grow {
+  flex-grow: 2;
 }
 
-.gridFive {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+/* Flexbox 6 */
+.flexSix {
+  display: flex;
+  flex-direction: column;
   width: 500px;
   height: 400px;
-  background: green;
-  gap: 0;
-  color: #111111;
+  background-color: #f1f1f1;
 }
 
-.gridFiveText {
-  padding: 12px;
+.flexSix .one,
+.flexSix .two,
+.flexSix .three {
+  display: flex;
 }
 
-.gridFiveMedia {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: 12px;
+.flexSix .one {
+  justify-content: space-around;
 }
 
-.gridFiveMedia img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-  display: block;
+.flexSix .two {
+  justify-content: space-between;
+  margin: 50px 0;
+  background-color: #d6d6d6;
 }
 
-.gridSix {
-  display: grid;
-  grid-template-columns: 1fr 3fr;
-  align-items: center;
-  gap: 16px;
+.flexSix .three {
+  justify-content: space-evenly;
+}
+
+/* Flexbox 7 */
+.flexSeven {
+  display: flex;
   width: 500px;
-  padding: 16px;
-  background: #e5e7eb;
-  border: 1px solid #cbd5f5;
+  height: 400px;
+  justify-content: space-between;
 }
 
-.gridSix i {
-  font-size: 42px;
-  color: #1f2937;
-  text-align: center;
+.flexSeven .one,
+.flexSeven .two,
+.flexSeven .three,
+.flexSeven .four {
+  display: flex;
+  flex-direction: column;
 }
 
-.gridSix p {
-  margin: 0;
-  font-family: "Poppins", sans-serif;
+.flexSeven .one {
+  justify-content: center;
 }
 
-p {
-  margin: 0;
+.flexSeven .two {
+  justify-content: flex-end;
+}
+
+.flexSeven .three {
+  justify-content: flex-start;
+}
+
+.flexSeven .four {
+  justify-content: space-between;
+}
+
+/* Flexbox 8 */
+.flexEight {
+  display: flex;
+  width: 300px;
+  height: 400px;
+  background-color: #eeeeee;
+}
+
+.flexEight .one,
+.flexEight .two,
+.flexEight .three {
+  display: flex;
+}
+
+.flexEight .one {
+  align-items: center;
+}
+
+.flexEight .two {
+  align-items: flex-end;
+}
+
+.flexEight .three {
+  align-items: flex-start;
+}
+
+/* Flexbox 9 */
+.flexNine {
+  display: flex;
+  width: 450px;
+  height: 250px;
+  background-color: #eeeeee;
+  align-items: flex-start;
+  justify-content: space-evenly;
+}
+
+#special {
+  align-self: flex-end;
 }
