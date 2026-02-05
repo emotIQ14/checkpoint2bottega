@@ -3,25 +3,22 @@
 << /Type /Catalog /Pages 2 0 R >>
 endobj
 2 0 obj
-<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+<< /Type /Pages /Kids [5 0 R] /Count 1 >>
 endobj
 3 0 obj
-<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 4 0 R >> >> /Contents 5 0 R >>
+<< /Type /Font /Subtype /Type1 /BaseFont /Courier >>
 endobj
 4 0 obj
-<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
-endobj
-5 0 obj
-<< /Length 2608 >>
+<< /Length 2811 >>
 stream
 BT
 /F1 11 Tf
-72 760 Td
+72 720 Td
 (M1C2 - Respuestas teoricas \(UX/UI + Flexbox\)) Tj
 0 -14 Td
 () Tj
 0 -14 Td
-(1\) Nombra cuatro valores que se pueden usar con la propiedad justify-content.) Tj
+(1\) Nombra cuatro valores que se pueden usar con justify-content.) Tj
 0 -14 Td
 (- flex-start: alinea los elementos al inicio del eje principal.) Tj
 0 -14 Td
@@ -29,45 +26,75 @@ BT
 0 -14 Td
 (- center: centra los elementos.) Tj
 0 -14 Td
-(- space-between: distribuye el espacio dejando el primero al inicio y el ultimo al final.) Tj
+(- space-between: distribuye el espacio dejando el primero al inicio y el) Tj
 0 -14 Td
-(Ejemplo: en una barra de navegacion, space-between ayuda a separar logo y links.) Tj
+(ultimo al final.) Tj
+0 -14 Td
+(Ejemplo: en una barra de navegacion, space-between ayuda a separar logo) Tj
+0 -14 Td
+(y links.) Tj
 0 -14 Td
 () Tj
 0 -14 Td
 (2\) Que es un objetivo primordial?) Tj
 0 -14 Td
-(Es el objetivo principal que un producto o pantalla debe lograr para el usuario. Es la accion mas importante que debe completar, y guia todas las decisiones de diseno.) Tj
+(Es el objetivo principal que un producto o pantalla debe lograr para el) Tj
 0 -14 Td
-(Ejemplo: en una pagina de busqueda, el objetivo primordial es permitir encontrar informacion rapidamente. Buena practica: reducir ruido visual y hacer el buscador el elemento dominante.) Tj
+(usuario. Es la accion mas importante que debe completar y guia las) Tj
+0 -14 Td
+(decisiones de diseno.) Tj
+0 -14 Td
+(Ejemplo: en una pagina de busqueda, el objetivo primordial es permitir) Tj
+0 -14 Td
+(encontrar informacion rapidamente. Buena practica: reducir ruido visual) Tj
+0 -14 Td
+(y hacer el buscador el elemento dominante.) Tj
 0 -14 Td
 () Tj
 0 -14 Td
 (3\) Que son los wireframes de baja fidelidad?) Tj
 0 -14 Td
-(Son bocetos simples que muestran la estructura y jerarquia de una interfaz sin detalles visuales finales \(sin colores finales, tipografias exactas o imagenes reales\).) Tj
+(Son bocetos simples que muestran la estructura y jerarquia de una) Tj
 0 -14 Td
-(Sirven para validar flujo y layout rapido. Buena practica: usar cajas y texto de placeholder para iterar antes de diseno visual.) Tj
+(interfaz sin detalles visuales finales \(sin colores finales, tipografias) Tj
+0 -14 Td
+(exactas o imagenes reales\).) Tj
+0 -14 Td
+(Sirven para validar flujo y layout rapido. Buena practica: usar cajas y) Tj
+0 -14 Td
+(texto de placeholder para iterar antes de diseno visual.) Tj
 0 -14 Td
 () Tj
 0 -14 Td
 (4\) Que es Git y para que sirve?) Tj
 0 -14 Td
-(Git es un sistema de control de versiones distribuido. Sirve para guardar el historial de cambios, trabajar en equipo con ramas, y volver a versiones anteriores si algo falla.) Tj
+(Git es un sistema de control de versiones distribuido. Sirve para) Tj
 0 -14 Td
-(Ejemplo: crear una rama para una nueva feature, hacer commits pequenos y luego hacer merge cuando esta lista.) Tj
+(guardar el historial de cambios, trabajar en equipo con ramas y volver a) Tj
+0 -14 Td
+(versiones anteriores si algo falla.) Tj
+0 -14 Td
+(Ejemplo: crear una rama para una nueva feature, hacer commits pequenos y) Tj
+0 -14 Td
+(luego hacer merge cuando esta lista.) Tj
 0 -14 Td
 () Tj
 0 -14 Td
 (5\) Que es un mapa del sitio?) Tj
 0 -14 Td
-(Es un diagrama o lista estructurada de las paginas de un sitio y sus relaciones. Ayuda a planificar navegacion y encontrar contenido.) Tj
+(Es un diagrama o lista estructurada de las paginas de un sitio y sus) Tj
 0 -14 Td
-(Ejemplo: Home -> Productos -> Detalle de producto -> Checkout. Buena practica: mantenerlo simple y orientado a tareas del usuario.) Tj
+(relaciones. Ayuda a planificar navegacion y encontrar contenido.) Tj
+0 -14 Td
+(Ejemplo: Home -> Productos -> Detalle de producto -> Checkout. Buena) Tj
+0 -14 Td
+(practica: mantenerlo simple y orientado a tareas del usuario.) Tj
 0 -14 Td
 () Tj
 0 -14 Td
-(6\) Nombra tres valores que se pueden usar con flex-direction \(incluye el valor por defecto\).) Tj
+(6\) Nombra tres valores que se pueden usar con flex-direction \(incluye el) Tj
+0 -14 Td
+(valor por defecto\).) Tj
 0 -14 Td
 (- row \(valor por defecto\): elementos en fila de izquierda a derecha.) Tj
 0 -14 Td
@@ -75,9 +102,14 @@ BT
 0 -14 Td
 (- row-reverse o column-reverse: invierte el orden en fila o columna.) Tj
 0 -14 Td
-(Ejemplo: usar column en un formulario para que los campos queden apilados.) Tj
+(Ejemplo: usar column en un formulario para que los campos queden) Tj
+0 -14 Td
+(apilados.) Tj
 ET
 endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 3 0 R >> >> /Contents 4 0 R >>
 endobj
 xref
 0 6
@@ -85,10 +117,10 @@ xref
 0000000009 00000 n 
 0000000058 00000 n 
 0000000115 00000 n 
-0000000241 00000 n 
-0000000311 00000 n 
+0000000183 00000 n 
+0000003046 00000 n 
 trailer
 << /Size 6 /Root 1 0 R >>
 startxref
-2971
+3172
 %%EOF
